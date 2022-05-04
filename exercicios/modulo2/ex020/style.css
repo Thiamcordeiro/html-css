@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'storia';
+    src: url('fontes/Storia-Light.otf');
+}
+body{
+    box-sizing: 300px;
+    background-color: rgb(33, 0, 182);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(210, 255, 8)
+}
+ol{
+    font-family: 'storia' ;
+    text-align: left;
+    color: white;
+    text-size-adjust: bolder;
+}
+.taula {
+    text-align: left;
+    text-decoration: underline;
+
+}
+div{
+    color:black;
+    font-family: 'storia';
+
+}
+div > ol{
+    display:none;
+}
+div:hover > ol{
+    display: block;
+    color:yellow;
+    size: 1em;
+    font-family: 'storia'; 
+}
+div:hover{
+    color:yellow;
+}
+li{
+    color:black;
+    text-size-adjust: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: yellow;
+    font-size: 1em;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color:yellow;
+    font-size: 1em;
+}
+#principal{
+    text-decoration: underline;
+    font-size: 3em;
+    font-family: 'storia';
+}
+.materia{
+    text-align: left;
+}
+a:visited{
+    color:yellow;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+main{
+    width: 900px;
+    margin: auto;
+    padding: 35px;
+    background-color: rgb(72, 72, 177);
+    border-radius: 50px;
+    box-shadow: 8px 3px 3px blue;
+}
+.ccompleto{
+    color: rgb(255, 255, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
+.cursos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: underline;
+}

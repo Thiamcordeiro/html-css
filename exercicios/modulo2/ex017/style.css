@@ -1,0 +1,11 @@
+@charset "UTF-8";
+body{
+    font: normal 16px Arial, Verdana, Serif;
+    background-image: linear-gradient(to right,black,white);
+    color:rgb(255, 0, 0)
+}
+h1{text-align: center;}
+h2{text-align: left;}
+p{text-align: justify;
+text-indent: 30px;
+}
